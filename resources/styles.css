@@ -1,3 +1,104 @@
-* {
-    font-family: Arial, Helvetica, sans-serif;
+/* Apply a fancy font to all elements */
+body { 
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+}
+
+/* Center-align h1 */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+.recipe {
+    text-align: center;
+}
+
+/* Style for navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #f39c12;
+}
+
+/* Add border to ingredients section */
+.ingredients {
+    border: 2px solid #e74c3c;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ingredients h3 {
+    color: #e74c3c;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.ingredients ul {
+    padding: 0;
+}
+
+.ingredients li {
+    margin-bottom: 10px;
+}
+
+/* Style for steps section */
+.steps {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.steps h3 {
+    color: #3498db;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.steps ol {
+    padding: 0;
+}
+
+.steps li {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.steps h4 {
+    color: #2ecc71;
+    font-size: 18px;
+    margin-top: 0;
 }
